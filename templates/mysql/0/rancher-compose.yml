@@ -1,0 +1,12 @@
+.catalog:
+  name: "MySQL"
+  version: "v5.6"
+  description: "Deploy a MySQL node"
+  minimum_rancher_version: v0.51.0
+  questions:    
+    - variable: public_port
+      description: "public port to access the database"
+      label: "Public Port"
+      required: true
+      default: "3306"
+      type: "int"
