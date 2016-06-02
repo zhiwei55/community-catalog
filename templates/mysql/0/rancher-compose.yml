@@ -10,3 +10,15 @@
       required: true
       default: "3306"
       type: "int"
+    - variable: mysql_user
+      description: "user to access the database"
+      label: "MYSQL_USER"
+      required: true
+      default: "sop"
+      type: "string"
+    - variable: mysql_pass
+      description: "password to access the database"
+      label: "MYSQL_PASS"
+      required: true
+      default: "sop"
+      type: "string"  
