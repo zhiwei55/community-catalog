@@ -1,5 +1,5 @@
 db:
-  image: 192.168.7.99:5000/sop/sop6:1.0
+  image: 192.168.7.99:5000/sopcloud/db:1.0
   environment:
     MYSQL_USER: sop
     MYSQL_PASS：sop
