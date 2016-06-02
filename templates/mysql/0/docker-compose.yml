@@ -1,5 +1,7 @@
 db:
   image: 192.168.7.99:5000/sopcloud/db:1.0
+  ports:
+    - ${public_port}:80
   environment:
-    MYSQL_USER: sop
-    MYSQL_PASS: sop
+    MYSQL_USER: ${mysql_user}
+    MYSQL_PASS: ${mysql_pass}
